@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume </title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="logic.js">
+
+</head>
+<body>
+       
+
+
+        <!-- User Input Screen Starts Here -->
+
+<div id="input_parent">        
+
+<div  class="main" id="main">
+        
+
+
+        <div id="header">
+                <h2>Resume/CV Generator</h2>
+        </div>
+
+
+        <!-- Personal Information -->
+
+    <div class="left">
+
+
+        <div>   
+        
+            <label>Photo</label>
+            <br>
+            <input id="photo" type="file">
+        </div>
+
+
+    <br><br>
+
+        <div>
+                <label>Title</label>
+                <br>
+                <input id="title" type="text" placeholder="Enter Title of your Experties">
+        </div>
+
+    <br><br>
+    
+        <div>   
+
+            <label>Name</label>
+            <br>
+            <input id="name" type="text" placeholder="Enter Your Name">
+        </div>
+        
+    <br><br>
+        <div>   
+ 
+            <label> Email</label><br>
+            <input id="email" type="text" placeholder="Enter Email here">
+        </div>
+       
+    <br><br>
+        <div>   
+            <label >Contact</label><br>
+            
+            <input id="contact" type="text" placeholder="Enter Mobile Number">
+        </div>
+                
+    <br><br>
+        <div>   
+            <label >Address</label><br>
+            <textarea name="" id="address" cols="30" rows="10" placeholder="Enter Your Address Here"></textarea>    
+        </div>        
+    <br><br>
+    <hr>
+
+        <div>  
+            <label > FaceBook</label><br>
+            <input id="facebook" type="url" placeholder="Enter FaceBook Link Here">
+        </div>
+                
+    <br><br>
+        <div>
+            <label > LinkedIn</label><br>
+            <input id="instagram" type="url" placeholder="Enter LinkedIn Link Here">
+        </div>
+    <br><br>
+           <div>
+            <label > GitHub</label><br>
+            <input  id="twitter" type="url" placeholder="Enter GitHub Link Here">
+            </div>   
+
+    <br><br>
+    <hr>
+
+        <div id="language"> 
+                
+            <label > Languages</label><br>
+            <input  class="language" id="lang" type="text" placeholder="Enter Languages Here  ">
+
+            <div id="lanbtn">   <button id="leftbtn_l" >+</button>   </div>
+
+        </div>
+
+   <hr>
+
+        <div id="hobbies">
+
+            <label > Hobbies</label><br>
+            <input  class="hobbies" id="hobb" type="text" placeholder="Enter Hobbies Here">
+
+                
+                <div id="hobbtn">     <button id="leftbtn_h" >+</button>    </div>
+
+        </div>
+
+
+
+
+
+        
+        </div>
+
+
+                <!-- Experience & Qualifications -->
+
+
+
+    <div class="right">
+
+
+        <div id="">
+        <label>Introduction</label>
+        <br>
+        <textarea name="" id="introduction" cols="72" rows="5" placeholder="Enter Your Introduction Here"></textarea>
+        </div>
+
+
+<br><br>
+
+<div id="education">
+        <label  >Qualification</label>
+            <br>
+        <textarea name="" class="qual1" cols="72" rows="5" placeholder="Enter Your Qualifications Here"></textarea>
+     <div id="btndiv">   <button class="add" id="btn1">Add</button> </div>
+</div>
+
+<br><br>
+
+<div id="experience">
+        <label >Experience</label>
+        <br>
+        <textarea class="exptxt" id="" cols="72" rows="5" placeholder="Enter Your Experience Here"></textarea>
+<div id="add1">
+        <button class="add" id="btn2">Add</button>
+</div>
+</div>
+
+
+</div>
+
+
+
+</div>
+
+</div> 
+<!-- input parent ends here -->
+
+
+     <!-- Generate CV Button -->
+             
+<div id="button">
+        <button  id="btn">Generate CV</button>
+
+</div>    
+</div>    
+
+
+<!-- CV Template Html Starts Here -->
+
+
+        <!-- Template Parent Div -->
+
+
+<div id="template_parent">
+<div id="main_template" class="main_template">
+
+
+        <!-- Template Left Side -->
+
+        <div class="template_left">
+
+                <div>
+                        <img id="tphoto" src="Profile.jpeg" alt="">
+                </div>
+
+
+               <div><h3>Personal Information</h3>
+        
+                <p id="tname"> Sample Your Name</p>
+                <p id="temail"> Sample Your Email</p>
+                <p id="tcontact">Sample Your Contact</p>
+                <p id="taddress">Sample Your Address</p>
+                 
+                
+                <hr>
+                <h3>Social Media Links</h3>
+
+                <a id="tfacebook" href="#" target="_blank">https://www.facebook.com/</a>
+                <a id="tinstagram" href="#" target="_blank">https://www.instagram.com/</a>
+                <a id="ttwitter" href="#" target="_blank">https://www.twitter.com/</a>
+        </div> 
+
+
+        <hr>
+        <div>
+                <h3>Languages</h3>
+                <ul  id="tlang">
+                        <li>Language 2</li>
+                        <li>Language 2</li>
+                        <li>Language 3</li>
+
+                </ul>
+        </div>
+        
+        <hr>
+
+        <div>
+                <h3>Hobbies</h3>
+                <ul id="thobb">
+                        <li>Hobbies 2</li>
+                        <li>Hobbies 2</li>
+                        <li>Hobbies 3</li>
+
+                </ul>
+        </div>
+         
+           
+
+        </div>
+
+
+
+        <!-- Template right Sides -->
+
+        <div class="template_right">
+
+        <div id="h2name">
+                <h1 id="th2name">Your Name Here</h1>
+                <br>
+                <h4 id="ttitle">Your Title Here</h4>
+        </div>
+
+                <div id="right_content">
+
+                        <div >
+                                <h3>Introduction</h3>
+                                <p id="tintroduction">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde commodi pariatur, exercitationem maiores assumenda ipsum vero blanditiis est veniam nam neque vitae animi accusamus illo nulla nisi eveniet. Temporibus, exercitationem!</p>
+                                
+                        </div>
+                        <div>
+                                <h3>Qualifications</h3>
+                                <ul id="tqual">
+                                        <li>SSC</li>
+                                        <li>HSSC</li>
+                                        <li>BS</li>
+                                </ul>
+                        
+                        </div>
+                        <div>
+                                <h3>Experience</h3>
+                                <ul id="texp">
+                                        <li>2 Years</li>
+                                        <li>4 Years </li>
+                                        <li>6 years</li>
+                                </ul>
+                                
+                        </div>
+                </div>
+                
+                
+
+        </div>
+
+
+
+</div>
+
+</div>
+<!-- Template Parent Ends Here -->
+<script src="logic.js"></script>
+
+
+</body> 
+</html>

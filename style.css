@@ -1,0 +1,585 @@
+/* Main Header Menu */
+#header{
+    width: 100%;
+    height: 50px;
+    background-color: yellowgreen;
+    border-bottom: 2px solid #0067B8;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    
+}
+@media screen and (max-width: 600px) 
+{
+    #header{
+        width: auto;
+        height: 30px;
+        background-color: yellowgreen;
+        border-bottom: 2px solid green;
+        top: 0%;
+        left: 0%;
+        right: 0%;
+        position: fixed;
+        
+    }   
+    #header h2{
+        font-size: small;
+    }
+}
+/* Body */
+body{
+    background-color: yellowgreen;
+}
+
+
+
+#input_parent{
+
+    display: block;
+
+}
+#template_parent{
+    
+    display: none;
+}
+
+/* Main Background  */
+#main{
+
+
+    width: auto;
+    height: auto;
+    display: grid;
+    padding: 20px;    
+    margin-top: 70px;
+    border: 2px solid green;
+    border-radius: 4px;
+    grid-template-columns: 1fr 1fr;
+
+    background-color: #658147;
+
+}
+/* Left and Right Divs of Main */
+
+
+.left{
+    height: auto;
+    /* background-color: blueviolet; */
+    
+}
+.right{
+
+    height: auto;
+    border-left: 2px solid rgb(189, 189, 189)   ;
+    /* background-color: rgb(133, 22, 40); */
+}
+
+@media screen and (max-width: 600px) 
+{
+    #main{
+
+
+        width: auto;
+        height: auto;
+        display: grid;
+        padding: 10px;    
+        margin-top: 50px;
+        border: 2px solid green;
+        border-radius: 4px;
+        grid-template-columns: 1fr;
+    
+        background-color: #658147;
+    
+    }
+    .left{
+        width: 100%;
+        height: auto;
+        float: left;
+        /* background-color: blueviolet; */
+
+        
+    }
+    .right{
+        width: auto;
+        height: auto;
+        border-left: 0px;
+        /* background-color: rgb(21, 24, 192); */
+        float: left;
+        
+    }
+
+}
+
+
+/* CSS of All Labels */
+
+label{
+    font-size: larger;
+    font-weight: bolder;
+    margin-left:5px ;
+    color: rgb(43, 40, 40);
+}
+
+/* CSS of all Inputs */
+input{
+    margin-left: 5px;
+    width: 500px;
+    height: 30px;
+    font-size: larger;
+    margin-top: 10px;
+    background-color: rgb(206, 206, 206);
+}
+
+/* CSS of all Text Areas */
+textarea{
+    font-size: larger;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: rgb(206, 206, 206);
+
+
+
+}
+@media screen and (max-width: 600px) 
+{
+    /* CSS of All Labels */
+
+label{
+    font-size: large;
+    font-weight: bold;
+    margin-left:5px;
+    color: rgb(43, 40, 40);
+}
+
+/* CSS of all Inputs */
+input{
+    margin-left: 5px;
+    width: 300px;
+    height: auto;
+    font-size: large;
+    margin-top: 2px;
+}
+
+/* CSS of all Text Areas */
+textarea{
+    font-size: large;
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 300px;
+    height: 50px;
+
+}
+
+}
+/* CSS of Address Text Area  */
+#address{
+    width: 500px;
+    height: 50px;
+}
+
+/* Main H2 Heading */
+h2{
+    text-align: center;
+}
+@media screen and (max-width: 600px) 
+{
+    #address{
+        width: 300px;
+        height: 40px;
+    } 
+    h2{
+        
+        text-align: center;
+    }
+}
+
+
+/* Add Button for Qualifications and Experience */
+
+
+.add{
+
+    width: 120px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: 80%;
+    border-radius: 3px;
+    border: 2px solid blue;
+    background-color:#0067B8;
+    color: white;
+    font-size: medium;
+    font-weight: 600;  
+}
+
+
+/* Submit Button of CV */
+
+#btn{
+
+        width: 180px;
+        height: 40px;
+        margin-top: 10px;
+        margin-left: 550px;
+        border-radius: 3px;
+        border: 2px solid blue;
+        background-color:#0067B8;
+        color: white;
+        font-size: medium;
+        font-weight: 600;
+        
+    }
+    
+    
+    @media screen and (max-width: 600px) 
+{
+    .add{
+
+        width: 90px;
+        height: 30px;
+        margin-top: 1px;
+        margin-left: 215px;
+        border-radius: 3px;
+        background-color:#0067B8;
+        color: white;
+        font-size: medium;
+        font-weight: 600;  
+    }
+    
+    
+    /* Submit Button of CV */
+    
+    #btn{
+    
+            width: 180px;
+            height: 40px;
+            margin-top: 10px;
+            margin-left: 90px;
+            border-radius: 3px;
+            border: 2px solid blue;
+            background-color:#0067B8;
+            color: white;
+            font-size: medium;
+            font-weight: 600;
+            
+        }  
+}
+
+/* Add Button for Languages & Hobbies  */
+
+#leftbtn_l {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 435px;
+    border-radius: 3px;
+    border: 2px solid blue;
+    background-color:#0067B8;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+#leftbtn_h {
+    width: 70px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 435px;
+    border-radius: 3px;
+    border: 2px solid blue;
+    background-color:#0067B8;
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+
+}
+@media screen and (max-width: 600px) 
+{
+ 
+    #leftbtn_l {
+        width: 70px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 235px;
+        border-radius: 3px;
+        border: 2px solid blue;
+        background-color:#0067B8;
+        color: white;
+        font-size: 25px;
+        font-weight: 600;
+    
+    }
+    #leftbtn_h {
+        width: 70px;
+        height: 30px;
+        margin-top: 5px;
+        margin-left: 235px;
+        border-radius: 3px;
+        border: 2px solid blue;
+        background-color:#0067B8;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+    
+    }
+}
+
+button{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+/* -----------------CSS of Template Starts Here--------------- */
+
+
+
+
+
+
+
+
+
+/* Main Div of Template */
+#main_template{
+
+
+    background-color: #729762;
+    width: auto;
+    height: auto;
+    border: 2px solid #597445;
+    border-radius: 4px;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 5px;
+    padding: 20px;
+
+    }
+
+    @media screen and (max-width: 600px) 
+    {
+        #main_template{
+
+
+            background-color: 729762;
+            width: auto;
+            height: auto;
+            border: 2px solid #597445;
+            border-radius: 4px;
+            margin-top: 10px;
+            display: grid;
+            grid-gap: 0px;
+            grid-template-columns: 1fr;
+            padding: 20px; 
+            padding-left: 10px;           
+            }
+    
+    }
+/* Left Div of Template */
+
+    .template_left{
+        width: auto;
+        height: auto;
+        float: left;
+        /* background-color: #0067B8; */
+
+        margin: 20px;
+
+    }
+@media screen and (max-width: 600px) 
+{
+    .template_left{
+        width: 100%;
+        height: auto;
+        /* background-color: #0067B8; */
+        float: left;
+        margin: 0px;
+
+
+    }
+
+}
+
+    img{
+        width: 200px;
+        height: 190px;
+        border: 2px solid black;
+        border-radius: 50%;
+
+    }
+    @media screen and (max-width: 600px) 
+{
+    img{
+        width: 200px;
+        height: 190px;
+        border: 2px solid black;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+    .template_left h3{
+        width: 190px;
+        height: 30px;
+        background-color: #597445;
+        color: rgb(255, 255, 255);
+        border-right:  solid black;
+        border-radius: 10px;
+        text-align: center;
+    }
+    .template_left ul li{
+        line-height: 30px;
+    }
+
+@media screen and (max-width: 600px) 
+{
+    .template_left h3{
+        width: 300px;
+        height: 30px;
+        background-color: #597445;
+        color: rgb(255, 255, 255);
+        border-right:  solid black;
+        border-radius: 10px;
+        text-align: center;
+    } 
+}
+
+
+
+/* Right Div of Template */
+
+    .template_right{
+        width: auto;
+        height: auto;
+        /* background-color: #1a2c3a; */
+
+        margin: 20px;
+    }
+
+
+@media screen and (max-width: 600px) 
+{
+    .template_right{
+        width: 100%;
+        height: auto;
+        /* background-color: #1a2c3a; */
+        margin: 0px;
+        float: left;
+        
+
+    } 
+}
+
+
+    #h2name{
+        background-color:#597445;
+        width:auto;
+        height:200px;
+        border-radius: 40px;
+        border: 2px solid darkolivegreen;
+        line-height:10px;
+    }
+    #h2name h1{
+        text-align: center;
+
+        margin-top: 60px;
+        
+    }
+    #h2name h4{
+
+        text-align: center;
+    }
+
+
+
+
+@media screen and (max-width: 600px) 
+
+{   
+#h2name{
+     display: none;
+}
+
+}
+
+
+
+    .template_right h3{
+        width: 770px;
+        height: 40px;
+        background-color: #597445;
+        color: rgb(255, 255, 255);
+        border:  2px solid black;
+        border-radius: 10px;
+        text-align: start;
+        line-height: 40px;
+        text-align: left;
+        padding: 0px 10px;
+  
+ }
+
+@media screen and (max-width: 600px) 
+{
+    .template_right h3{
+        width: 300px;
+        height: 40px;
+        background-color: #597445;
+        color: rgb(255, 255, 255);
+        border:  2px solid black;
+        border-radius: 10px;
+        text-align: start;
+        line-height: 40px;
+        text-align: left;
+        padding: 0px 10px;
+  
+ }
+
+}
+ /* CSS of Default Content under Right Div */
+
+    #right_content p{
+        font-size: large;
+        line-height: 30px;
+
+    }
+
+    #right_content{
+        margin-top: 100px;
+        width: auto;
+        margin-left: 100px;
+    }
+    #right_content ul li{
+
+        line-height: 50px;
+    }
+
+
+    @media screen and (max-width: 600px) 
+    {
+        #right_content p{
+            font-size: large;
+            line-height: 20px;
+            margin-left: 0px;
+
+    
+        }
+
+        #right_content{
+            margin-top: 0px;
+            width: 100%;
+            margin-left: 0px;
+        }   
+        #right_content ul li{
+
+            line-height: 20px;
+        }
+        
+    }
